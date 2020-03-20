@@ -117,8 +117,8 @@ console.log('test');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Kristina\Desktop\web\new project\assets/scripts/main.js */"./assets/scripts/main.js");
-module.exports = __webpack_require__(/*! C:\Users\Kristina\Desktop\web\new project\assets/styles/main.scss */"./assets/styles/main.scss");
+__webpack_require__(/*! C:\Users\Kristina\Desktop\web\Reviews\assets/scripts/main.js */"./assets/scripts/main.js");
+module.exports = __webpack_require__(/*! C:\Users\Kristina\Desktop\web\Reviews\assets/styles/main.scss */"./assets/styles/main.scss");
 
 
 /***/ })
