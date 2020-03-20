@@ -1,0 +1,27 @@
+$footer-bg: black;
+$footer-color: white;
+$copyright-color: grey;
+
+.footerWrap {
+  width: 100%;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background: $footer-bg;
+  &__items {
+    display: flex;
+  justify-content: space-between;
+  & a {
+    color: $footer-color;
+    text-decoration: none;
+ }
+  }
+}
+
+.copyright p {
+  color: $copyright-color;
+  margin-bottom: 0px;
+  margin-top: 8px;
+}

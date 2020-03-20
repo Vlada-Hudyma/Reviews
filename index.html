@@ -1,0 +1,910 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reviews</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+  <link href="dist/styles/main.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="dist/styles/vue.css" type="text/css" rel="stylesheet" media="screen" />
+  <script src="dist/scripts/main.js" type="text/javascript"></script>
+  <script src="dist/scripts/vue.js" type="text/javascript"></script>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="logo">
+          <h3>Название сайта</h3>
+        </div>
+      </div>
+      <div class="col-md-5" >
+        <div class="search">
+          <form>
+            <p><input type="search" name="q" placeholder="Название компании, город или страна"> 
+            <input type="submit" value="Найти"></p>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="date">
+          <div class="date__login">
+            <button>Вход</button>
+          </div>
+          <div class="date__registration">
+            <button>Регистрация</button>
+          </div>
+        </div>
+        <div class="review">
+          <div class="review__new"><button>НОВЫЕ ОТЗЫВЫ</button></div>
+          <div class="review__add"><button>ДОБАВИТЬ ОТЗЫВ</button></div>
+          <div class="review__feedback"><button>ОБРАТНАЯ СВЯЗЬ</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="content">
+  <div class="content__wrap">
+    <div class="content__items">
+
+
+
+      <div class="item">
+        <div class="item__borders">
+        <div class="image">
+          <div class="image__item1">
+            <a href="https://www.google.com/maps/uv?hl=uk&pb=!1s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM6rM5O7_74knE9CE9GPgZcTwrsU_RY2WLFVQuy%3Dw340-h200-k-no!5zc2VkYXJ0ZSAtINCf0L7RiNGD0LogR29vZ2xl!15sCAQ&imagekey=!1e10!2sAF1QipM6rM5O7_74knE9CE9GPgZcTwrsU_RY2WLFVQuy&sa=X&ved=2ahUKEwiC_6G2rqToAhUHEpoKHRFVCPoQoiowFnoECBQQBg">
+            <img src="./assets/image/fainatown.png" alt="">
+            </a>
+          </div>
+          <div class="image__item2">
+            <a href="https://www.google.com/maps/place/sedarte.com.ua+-+%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%8F+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B0+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%B8+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0/@50.454641,30.593268,15z/data=!4m2!3m1!1s0x0:0xaa5ad08a96173dc7?sa=X&ved=2ahUKEwitqKK80qToAhXQzcQBHYFdD8IQ_BIwFnoECAwQCA">
+              <img src="./assets/image/map.png" alt="">
+            </a>
+          </div>
+          <div class="image__item3">
+            <a href="https://www.google.com/maps/uv?hl=uk&pb=!1s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7!3m1!7e115!4s%2Fmaps%2Fplace%2Fsedarte%2F%4050.4542577%2C30.5935309%2C3a%2C75y%2C336.41h%2C90t%2Fdata%3D*213m4*211e1*213m2*211snfEHaTQjMz-Is-6fbl1Uow*212e0*214m2*213m1*211s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7%3Fsa%3DX!5zc2VkYXJ0ZSAtINCf0L7RiNGD0LogR29vZ2xl!15sCAQ&imagekey=!1e2!2snfEHaTQjMz-Is-6fbl1Uow&sa=X&ved=2ahUKEwiC_6G2rqToAhUHEpoKHRFVCPoQpx8wFnoECBQQCw">
+              <img src="./assets/image/street.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="item__border">
+        <div class="info">
+          <span>sedarte.com.ua - студия дизайна квартир и интерьера</span>
+          <img src="https://lh4.googleusercontent.com/-tiZt0AT42f0/AAAAAAAAAAI/AAAAAAAAAAA/DxNaUtzRzWQ/s55-p-k-no-ns-nd/photo.jpg" alt="">
+        </div>
+
+        <div class="navigation">
+          <div class="navigation__item"><button>Сайт</button></div>
+          <div class="navigation__item"><button>Маршрут</button></div>
+          <div class="navigation__item"><button>Сохранить</button></div>
+        </div>
+
+        <div class="rating">
+          <div class="rating__value"><span>5,0</span></div>
+          <div class="rating__stars">
+            <span class="rate"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span>
+          </div>
+          <div class="rating__review"><a href="#">5 отзывов на Google</a></div>
+        </div>
+        <p>Дизайнер інтер'єрів в Києві</p>
+      </div>
+        </div>
+        <div class="item__dataBorder">
+          <div class="item__dataBorder-bottom">
+          <div class="data">
+        <div class="data__address">
+          <a href="#">Адрес:</a>
+          <span>вулиця Микільсько-Слобідська, 1А, Київ, 02000</span>
+        </div>
+        <div class="data__time">
+          <a href="#">Время работы:</a>
+          <span>Зачинено ⋅ Відчиняється: чт, 09:00</span>
+        </div>
+        <div class="data__tel">
+          <a href="#">Телефон:</a>
+          <span>044 221 6809</span>
+        </div>
+          </div>
+          <div class="editing">
+            <span><a href="">Предложить исправление</a></span>
+            ·
+            <span><a href="">Вы - владелец этой организации?</a></span>
+          </div>
+          <div class="question">
+            <div class="question__all">
+              <p>Вопросы и ответы</p>
+              <a href="#">Посмотреть все вопросы (1)</a>
+            </div>
+            <div class="question__new">
+              <button>Задать вопрос</button>
+            </div>
+          </div>
+          <div class="question">
+            <div class="question__all">
+              <p>Отзывы в Интернете</p>
+              <a href="#">
+                <span class="question__all-rate">5/5</span>
+                <span class="question__all-facebook" title="Facebook">Facebook</span>
+                <span class="question__all-vote"> · 26 голосов</span>
+              </a>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="comment__google">
+              <p>Отзывы<span>?</span></p>
+              <a href="#">5 отзывов на Google</a>
+            </div>
+            <div class="comment__all">
+              <button>Написать отзыв</button>
+              <button>Добавить фото</button>
+            </div>
+          </div>
+          <div class="inquirie">
+            <div class="inquiries">
+              <div class="inquiries__title"><a href="#">Похожие запросы</a></div>
+              <div class="inquiries__more"><a href="#">Еще 15+</a></div>
+            </div>
+            <div class="gallery">
+              <div class="gallery__item1">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>U‑Style</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAACXBIWXMAAAAcAAAAHAAPAbmPAAAAjVBMVEXt7e76+vr39vby8vPk5ef///9rdnv4+fplvXyAxpPa3d62u77J4dCk07G32sHp6evk6uduwITJzM2b0KpbuXTf4eTufXSSzaKJypt+iIx1f4TA3cmQmZyjqq2ss7Xb59/oQTN3w4zV2NuaoqX10M3S5Ni/xMaHkZTxqqXrWk5aFBGDIRupLSTKOCyq2v+TEpyoAAAEwElEQVR42u39V7eiShCFAVR3k8lkMpidOef//71bDaKiZ+bC0D7uCYaF39puqlP5AktEiVIz6XRWlLyR5RgEipJAQZ1PkizLVCiaEeJyz/sARKOBqYRQaHJ0LhoNoMpcUl2IRxO2owP9He26sEnEVWoY2S/o2DC2fQ+V7JVBxgtailU1lmCDGKGGiXpHS6oqbUUPaXwATcnOQJ0+glb+kLUAtGkG3Dd9QcfuZrQ8SX1Hb62QwPxxyHC0sWnQMKzrj6EBJrT7JMlgW9FAp7Txpj0LyVvREN/Zr4o3zoWUkT+gXWMbeRroKDaXuzUORsy8kcb1IJ5rI5nXdc4XdKRTXMuEiqgElIFuEMJApBhTZcWkwb5QTMFokCii5d1eKQLRrgmRG7M+5yYuZiLRjMnkcEkSE2+jSkWSKT1cu1HXg1gyTGCuBIQVH6OXbq6LKONv5K47iPHNoHsXiLDN6PUH9FWEbXboftJBgO2H6a/fv35/TS+S7bYZnWC/f3H9viey2fY9j69fo76FJcIuM9MP2xdx6F+TxKM/4PqDWbNuZvteIWx7YT/q+hvrevKMM9Rm8idHI3xuDgF6+JRpZCdv5IuodeaNnQhcwebshIlbeOfshIBAPbMTmUkgUA92IstEKPrOvpqV8T+NLX54kqQVpxDmDuiTWUmvaHeE8S29gQ8uN4KnqsVoIHx6TfgJj8QPVjyyRthcEC+Vq/I4DI6eWET+m0BeKDwVXLtLU5kDfYmWogllLOkSbPYp5sKPLEYzFw7dYRfs4oWfWIEGF8e3Czt34SeWZ60imHk1BlLRv12Hd5e2JTZ3pMVomRBVzRW8jXk1e19FFi/uWzHyaiz1oa0or1CgBPj/ToFhODyx+KB5GgKWNjwsrutYos1ZHtCSKrk/tztbyypt2450vY9gufAsreABbFfk46C5ybIsx7ZDXdcjFD6Edh85luWtQONZ+qxUhVLwc7rn2Jmu+wjzdT1Do6VlteNlXqrpKawTJdBU1QknHsML+yjKHOuHq9pe99qoXc3GqGlwVs7YXPCcLOqdN0Sphfh/Zq9EAyFGjYnsFRh27gPdPj5fYWslf7A0by3awBFT1XLeTMd0z0k1P5zoXtbfnuprbRMVfz0xCmpWzxN9OdGPfjaZXW0bO6sFNprzAtGzuka6ltqa83hnrW1sJCpNoDS4Pr41Lo5apKXl/eVtRC6Xqp4wbawTbDa8sO3eO4Y+0m9p+yvRjKgSrjLYy3nrEvmD42OmaTiKUrsMYS0bDTeFotTGy4o9BZAiEueRUPdXo8mJ/xjGp+z5npIjy1TXoilubz1a4h25ygykebtPw4j91Do62i1rZy0abySRjcDE1YY+ox38/t4wj4bZ+M5q18jG6Yn/0LaH57QzNGn1/Jk/2rX09Wiq4u9K+Uvaw1Rnc9pwOz3H1+x/QBOzloY6kR6l7fAUjn6kh3oIra3165OGqd2M89TZeOzhbym0ZZhZaZRZ8G+iDNn7nO/PpreO91Ht6Frawr8LN1D7Yceg3hJJxwULI/ZtD7ZIInJQUKPeyzf0UMttqOkObBRVZang+6gbusSixohTCzaLAK8/E25bbVwJnV4LWxAgXGzqHUZ9gqG0vUjznfeI/wP8D5MN/ewXnQAAAABJRU5ErkJggg==" alt="">
+                  <h6>Дизайн интерь... в Киеве...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>Artinterior</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                  <h6>СТУДИЯ ДИЗАЙНА ИНТЕР...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>InСube Design ‑ студия д...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="item">
+        <div class="item__borders">
+        <div class="image">
+          <div class="image__item1">
+            <a href="https://www.google.com/maps/uv?hl=uk&pb=!1s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM6rM5O7_74knE9CE9GPgZcTwrsU_RY2WLFVQuy%3Dw340-h200-k-no!5zc2VkYXJ0ZSAtINCf0L7RiNGD0LogR29vZ2xl!15sCAQ&imagekey=!1e10!2sAF1QipM6rM5O7_74knE9CE9GPgZcTwrsU_RY2WLFVQuy&sa=X&ved=2ahUKEwiC_6G2rqToAhUHEpoKHRFVCPoQoiowFnoECBQQBg">
+            <img src="./assets/image/fainatown.png" alt="">
+            </a>
+          </div>
+          <div class="image__item2">
+            <a href="https://www.google.com/maps/place/sedarte.com.ua+-+%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%8F+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B0+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%B8+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0/@50.454641,30.593268,15z/data=!4m2!3m1!1s0x0:0xaa5ad08a96173dc7?sa=X&ved=2ahUKEwitqKK80qToAhXQzcQBHYFdD8IQ_BIwFnoECAwQCA">
+              <img src="./assets/image/map.png" alt="">
+            </a>
+          </div>
+          <div class="image__item3">
+            <a href="https://www.google.com/maps/uv?hl=uk&pb=!1s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7!3m1!7e115!4s%2Fmaps%2Fplace%2Fsedarte%2F%4050.4542577%2C30.5935309%2C3a%2C75y%2C336.41h%2C90t%2Fdata%3D*213m4*211e1*213m2*211snfEHaTQjMz-Is-6fbl1Uow*212e0*214m2*213m1*211s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7%3Fsa%3DX!5zc2VkYXJ0ZSAtINCf0L7RiNGD0LogR29vZ2xl!15sCAQ&imagekey=!1e2!2snfEHaTQjMz-Is-6fbl1Uow&sa=X&ved=2ahUKEwiC_6G2rqToAhUHEpoKHRFVCPoQpx8wFnoECBQQCw">
+              <img src="./assets/image/street.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="item__border">
+        <div class="info">
+          <span>sedarte.com.ua - студия дизайна квартир и интерьера</span>
+          <img src="https://lh4.googleusercontent.com/-tiZt0AT42f0/AAAAAAAAAAI/AAAAAAAAAAA/DxNaUtzRzWQ/s55-p-k-no-ns-nd/photo.jpg" alt="">
+        </div>
+
+        <div class="navigation">
+          <div class="navigation__item"><button>Сайт</button></div>
+          <div class="navigation__item"><button>Маршрут</button></div>
+          <div class="navigation__item"><button>Сохранить</button></div>
+        </div>
+
+        <div class="rating">
+          <div class="rating__value"><span>5,0</span></div>
+          <div class="rating__stars">
+            <span class="rate"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span>
+          </div>
+          <div class="rating__review"><a href="#">5 отзывов на Google</a></div>
+        </div>
+        <p>Дизайнер інтер'єрів в Києві</p>
+      </div>
+        </div>
+        <div class="item__dataBorder">
+          <div class="item__dataBorder-bottom">
+          <div class="data">
+        <div class="data__address">
+          <a href="#">Адрес:</a>
+          <span>вулиця Микільсько-Слобідська, 1А, Київ, 02000</span>
+        </div>
+        <div class="data__time">
+          <a href="#">Время работы:</a>
+          <span>Зачинено ⋅ Відчиняється: чт, 09:00</span>
+        </div>
+        <div class="data__tel">
+          <a href="#">Телефон:</a>
+          <span>044 221 6809</span>
+        </div>
+          </div>
+          <div class="editing">
+            <span><a href="">Предложить исправление</a></span>
+            ·
+            <span><a href="">Вы - владелец этой организации?</a></span>
+          </div>
+          <div class="question">
+            <div class="question__all">
+              <p>Вопросы и ответы</p>
+              <a href="#">Посмотреть все вопросы (1)</a>
+            </div>
+            <div class="question__new">
+              <button>Задать вопрос</button>
+            </div>
+          </div>
+          <div class="question">
+            <div class="question__all">
+              <p>Отзывы в Интернете</p>
+              <a href="#">
+                <span class="question__all-rate">5/5</span>
+                <span class="question__all-facebook" title="Facebook">Facebook</span>
+                <span class="question__all-vote"> · 26 голосов</span>
+              </a>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="comment__google">
+              <p>Отзывы<span>?</span></p>
+              <a href="#">5 отзывов на Google</a>
+            </div>
+            <div class="comment__all">
+              <button>Написать отзыв</button>
+              <button>Добавить фото</button>
+            </div>
+          </div>
+          <div class="inquirie">
+            <div class="inquiries">
+              <div class="inquiries__title"><a href="#">Похожие запросы</a></div>
+              <div class="inquiries__more"><a href="#">Еще 15+</a></div>
+            </div>
+            <div class="gallery">
+              <div class="gallery__item1">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>U‑Style</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAACXBIWXMAAAAcAAAAHAAPAbmPAAAAjVBMVEXt7e76+vr39vby8vPk5ef///9rdnv4+fplvXyAxpPa3d62u77J4dCk07G32sHp6evk6uduwITJzM2b0KpbuXTf4eTufXSSzaKJypt+iIx1f4TA3cmQmZyjqq2ss7Xb59/oQTN3w4zV2NuaoqX10M3S5Ni/xMaHkZTxqqXrWk5aFBGDIRupLSTKOCyq2v+TEpyoAAAEwElEQVR42u39V7eiShCFAVR3k8lkMpidOef//71bDaKiZ+bC0D7uCYaF39puqlP5AktEiVIz6XRWlLyR5RgEipJAQZ1PkizLVCiaEeJyz/sARKOBqYRQaHJ0LhoNoMpcUl2IRxO2owP9He26sEnEVWoY2S/o2DC2fQ+V7JVBxgtailU1lmCDGKGGiXpHS6oqbUUPaXwATcnOQJ0+glb+kLUAtGkG3Dd9QcfuZrQ8SX1Hb62QwPxxyHC0sWnQMKzrj6EBJrT7JMlgW9FAp7Txpj0LyVvREN/Zr4o3zoWUkT+gXWMbeRroKDaXuzUORsy8kcb1IJ5rI5nXdc4XdKRTXMuEiqgElIFuEMJApBhTZcWkwb5QTMFokCii5d1eKQLRrgmRG7M+5yYuZiLRjMnkcEkSE2+jSkWSKT1cu1HXg1gyTGCuBIQVH6OXbq6LKONv5K47iPHNoHsXiLDN6PUH9FWEbXboftJBgO2H6a/fv35/TS+S7bYZnWC/f3H9viey2fY9j69fo76FJcIuM9MP2xdx6F+TxKM/4PqDWbNuZvteIWx7YT/q+hvrevKMM9Rm8idHI3xuDgF6+JRpZCdv5IuodeaNnQhcwebshIlbeOfshIBAPbMTmUkgUA92IstEKPrOvpqV8T+NLX54kqQVpxDmDuiTWUmvaHeE8S29gQ8uN4KnqsVoIHx6TfgJj8QPVjyyRthcEC+Vq/I4DI6eWET+m0BeKDwVXLtLU5kDfYmWogllLOkSbPYp5sKPLEYzFw7dYRfs4oWfWIEGF8e3Czt34SeWZ60imHk1BlLRv12Hd5e2JTZ3pMVomRBVzRW8jXk1e19FFi/uWzHyaiz1oa0or1CgBPj/ToFhODyx+KB5GgKWNjwsrutYos1ZHtCSKrk/tztbyypt2450vY9gufAsreABbFfk46C5ybIsx7ZDXdcjFD6Edh85luWtQONZ+qxUhVLwc7rn2Jmu+wjzdT1Do6VlteNlXqrpKawTJdBU1QknHsML+yjKHOuHq9pe99qoXc3GqGlwVs7YXPCcLOqdN0Sphfh/Zq9EAyFGjYnsFRh27gPdPj5fYWslf7A0by3awBFT1XLeTMd0z0k1P5zoXtbfnuprbRMVfz0xCmpWzxN9OdGPfjaZXW0bO6sFNprzAtGzuka6ltqa83hnrW1sJCpNoDS4Pr41Lo5apKXl/eVtRC6Xqp4wbawTbDa8sO3eO4Y+0m9p+yvRjKgSrjLYy3nrEvmD42OmaTiKUrsMYS0bDTeFotTGy4o9BZAiEueRUPdXo8mJ/xjGp+z5npIjy1TXoilubz1a4h25ygykebtPw4j91Do62i1rZy0abySRjcDE1YY+ox38/t4wj4bZ+M5q18jG6Yn/0LaH57QzNGn1/Jk/2rX09Wiq4u9K+Uvaw1Rnc9pwOz3H1+x/QBOzloY6kR6l7fAUjn6kh3oIra3165OGqd2M89TZeOzhbym0ZZhZaZRZ8G+iDNn7nO/PpreO91Ht6Frawr8LN1D7Yceg3hJJxwULI/ZtD7ZIInJQUKPeyzf0UMttqOkObBRVZang+6gbusSixohTCzaLAK8/E25bbVwJnV4LWxAgXGzqHUZ9gqG0vUjznfeI/wP8D5MN/ewXnQAAAABJRU5ErkJggg==" alt="">
+                  <h6>Дизайн интерь... в Киеве...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>Artinterior</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                  <h6>СТУДИЯ ДИЗАЙНА ИНТЕР...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>InСube Design ‑ студия д...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="item">
+        <div class="item__borders">
+        <div class="image">
+          <div class="image__item1">
+            <a href="https://www.google.com/maps/uv?hl=uk&pb=!1s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM6rM5O7_74knE9CE9GPgZcTwrsU_RY2WLFVQuy%3Dw340-h200-k-no!5zc2VkYXJ0ZSAtINCf0L7RiNGD0LogR29vZ2xl!15sCAQ&imagekey=!1e10!2sAF1QipM6rM5O7_74knE9CE9GPgZcTwrsU_RY2WLFVQuy&sa=X&ved=2ahUKEwiC_6G2rqToAhUHEpoKHRFVCPoQoiowFnoECBQQBg">
+            <img src="./assets/image/fainatown.png" alt="">
+            </a>
+          </div>
+          <div class="image__item2">
+            <a href="https://www.google.com/maps/place/sedarte.com.ua+-+%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%8F+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B0+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%B8+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0/@50.454641,30.593268,15z/data=!4m2!3m1!1s0x0:0xaa5ad08a96173dc7?sa=X&ved=2ahUKEwitqKK80qToAhXQzcQBHYFdD8IQ_BIwFnoECAwQCA">
+              <img src="./assets/image/map.png" alt="">
+            </a>
+          </div>
+          <div class="image__item3">
+            <a href="https://www.google.com/maps/uv?hl=uk&pb=!1s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7!3m1!7e115!4s%2Fmaps%2Fplace%2Fsedarte%2F%4050.4542577%2C30.5935309%2C3a%2C75y%2C336.41h%2C90t%2Fdata%3D*213m4*211e1*213m2*211snfEHaTQjMz-Is-6fbl1Uow*212e0*214m2*213m1*211s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7%3Fsa%3DX!5zc2VkYXJ0ZSAtINCf0L7RiNGD0LogR29vZ2xl!15sCAQ&imagekey=!1e2!2snfEHaTQjMz-Is-6fbl1Uow&sa=X&ved=2ahUKEwiC_6G2rqToAhUHEpoKHRFVCPoQpx8wFnoECBQQCw">
+              <img src="./assets/image/street.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="item__border">
+        <div class="info">
+          <span>sedarte.com.ua - студия дизайна квартир и интерьера</span>
+          <img src="https://lh4.googleusercontent.com/-tiZt0AT42f0/AAAAAAAAAAI/AAAAAAAAAAA/DxNaUtzRzWQ/s55-p-k-no-ns-nd/photo.jpg" alt="">
+        </div>
+
+        <div class="navigation">
+          <div class="navigation__item"><button>Сайт</button></div>
+          <div class="navigation__item"><button>Маршрут</button></div>
+          <div class="navigation__item"><button>Сохранить</button></div>
+        </div>
+
+        <div class="rating">
+          <div class="rating__value"><span>5,0</span></div>
+          <div class="rating__stars">
+            <span class="rate"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span>
+          </div>
+          <div class="rating__review"><a href="#">5 отзывов на Google</a></div>
+        </div>
+        <p>Дизайнер інтер'єрів в Києві</p>
+      </div>
+        </div>
+        <div class="item__dataBorder">
+          <div class="item__dataBorder-bottom">
+          <div class="data">
+        <div class="data__address">
+          <a href="#">Адрес:</a>
+          <span>вулиця Микільсько-Слобідська, 1А, Київ, 02000</span>
+        </div>
+        <div class="data__time">
+          <a href="#">Время работы:</a>
+          <span>Зачинено ⋅ Відчиняється: чт, 09:00</span>
+        </div>
+        <div class="data__tel">
+          <a href="#">Телефон:</a>
+          <span>044 221 6809</span>
+        </div>
+          </div>
+          <div class="editing">
+            <span><a href="">Предложить исправление</a></span>
+            ·
+            <span><a href="">Вы - владелец этой организации?</a></span>
+          </div>
+          <div class="question">
+            <div class="question__all">
+              <p>Вопросы и ответы</p>
+              <a href="#">Посмотреть все вопросы (1)</a>
+            </div>
+            <div class="question__new">
+              <button>Задать вопрос</button>
+            </div>
+          </div>
+          <div class="question">
+            <div class="question__all">
+              <p>Отзывы в Интернете</p>
+              <a href="#">
+                <span class="question__all-rate">5/5</span>
+                <span class="question__all-facebook" title="Facebook">Facebook</span>
+                <span class="question__all-vote"> · 26 голосов</span>
+              </a>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="comment__google">
+              <p>Отзывы<span>?</span></p>
+              <a href="#">5 отзывов на Google</a>
+            </div>
+            <div class="comment__all">
+              <button>Написать отзыв</button>
+              <button>Добавить фото</button>
+            </div>
+          </div>
+          <div class="inquirie">
+            <div class="inquiries">
+              <div class="inquiries__title"><a href="#">Похожие запросы</a></div>
+              <div class="inquiries__more"><a href="#">Еще 15+</a></div>
+            </div>
+            <div class="gallery">
+              <div class="gallery__item1">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>U‑Style</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAACXBIWXMAAAAcAAAAHAAPAbmPAAAAjVBMVEXt7e76+vr39vby8vPk5ef///9rdnv4+fplvXyAxpPa3d62u77J4dCk07G32sHp6evk6uduwITJzM2b0KpbuXTf4eTufXSSzaKJypt+iIx1f4TA3cmQmZyjqq2ss7Xb59/oQTN3w4zV2NuaoqX10M3S5Ni/xMaHkZTxqqXrWk5aFBGDIRupLSTKOCyq2v+TEpyoAAAEwElEQVR42u39V7eiShCFAVR3k8lkMpidOef//71bDaKiZ+bC0D7uCYaF39puqlP5AktEiVIz6XRWlLyR5RgEipJAQZ1PkizLVCiaEeJyz/sARKOBqYRQaHJ0LhoNoMpcUl2IRxO2owP9He26sEnEVWoY2S/o2DC2fQ+V7JVBxgtailU1lmCDGKGGiXpHS6oqbUUPaXwATcnOQJ0+glb+kLUAtGkG3Dd9QcfuZrQ8SX1Hb62QwPxxyHC0sWnQMKzrj6EBJrT7JMlgW9FAp7Txpj0LyVvREN/Zr4o3zoWUkT+gXWMbeRroKDaXuzUORsy8kcb1IJ5rI5nXdc4XdKRTXMuEiqgElIFuEMJApBhTZcWkwb5QTMFokCii5d1eKQLRrgmRG7M+5yYuZiLRjMnkcEkSE2+jSkWSKT1cu1HXg1gyTGCuBIQVH6OXbq6LKONv5K47iPHNoHsXiLDN6PUH9FWEbXboftJBgO2H6a/fv35/TS+S7bYZnWC/f3H9viey2fY9j69fo76FJcIuM9MP2xdx6F+TxKM/4PqDWbNuZvteIWx7YT/q+hvrevKMM9Rm8idHI3xuDgF6+JRpZCdv5IuodeaNnQhcwebshIlbeOfshIBAPbMTmUkgUA92IstEKPrOvpqV8T+NLX54kqQVpxDmDuiTWUmvaHeE8S29gQ8uN4KnqsVoIHx6TfgJj8QPVjyyRthcEC+Vq/I4DI6eWET+m0BeKDwVXLtLU5kDfYmWogllLOkSbPYp5sKPLEYzFw7dYRfs4oWfWIEGF8e3Czt34SeWZ60imHk1BlLRv12Hd5e2JTZ3pMVomRBVzRW8jXk1e19FFi/uWzHyaiz1oa0or1CgBPj/ToFhODyx+KB5GgKWNjwsrutYos1ZHtCSKrk/tztbyypt2450vY9gufAsreABbFfk46C5ybIsx7ZDXdcjFD6Edh85luWtQONZ+qxUhVLwc7rn2Jmu+wjzdT1Do6VlteNlXqrpKawTJdBU1QknHsML+yjKHOuHq9pe99qoXc3GqGlwVs7YXPCcLOqdN0Sphfh/Zq9EAyFGjYnsFRh27gPdPj5fYWslf7A0by3awBFT1XLeTMd0z0k1P5zoXtbfnuprbRMVfz0xCmpWzxN9OdGPfjaZXW0bO6sFNprzAtGzuka6ltqa83hnrW1sJCpNoDS4Pr41Lo5apKXl/eVtRC6Xqp4wbawTbDa8sO3eO4Y+0m9p+yvRjKgSrjLYy3nrEvmD42OmaTiKUrsMYS0bDTeFotTGy4o9BZAiEueRUPdXo8mJ/xjGp+z5npIjy1TXoilubz1a4h25ygykebtPw4j91Do62i1rZy0abySRjcDE1YY+ox38/t4wj4bZ+M5q18jG6Yn/0LaH57QzNGn1/Jk/2rX09Wiq4u9K+Uvaw1Rnc9pwOz3H1+x/QBOzloY6kR6l7fAUjn6kh3oIra3165OGqd2M89TZeOzhbym0ZZhZaZRZ8G+iDNn7nO/PpreO91Ht6Frawr8LN1D7Yceg3hJJxwULI/ZtD7ZIInJQUKPeyzf0UMttqOkObBRVZang+6gbusSixohTCzaLAK8/E25bbVwJnV4LWxAgXGzqHUZ9gqG0vUjznfeI/wP8D5MN/ewXnQAAAABJRU5ErkJggg==" alt="">
+                  <h6>Дизайн интерь... в Киеве...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>Artinterior</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                  <h6>СТУДИЯ ДИЗАЙНА ИНТЕР...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>InСube Design ‑ студия д...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="item">
+        <div class="item__borders">
+        <div class="image">
+          <div class="image__item1">
+            <a href="https://www.google.com/maps/uv?hl=uk&pb=!1s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM6rM5O7_74knE9CE9GPgZcTwrsU_RY2WLFVQuy%3Dw340-h200-k-no!5zc2VkYXJ0ZSAtINCf0L7RiNGD0LogR29vZ2xl!15sCAQ&imagekey=!1e10!2sAF1QipM6rM5O7_74knE9CE9GPgZcTwrsU_RY2WLFVQuy&sa=X&ved=2ahUKEwiC_6G2rqToAhUHEpoKHRFVCPoQoiowFnoECBQQBg">
+            <img src="./assets/image/fainatown.png" alt="">
+            </a>
+          </div>
+          <div class="image__item2">
+            <a href="https://www.google.com/maps/place/sedarte.com.ua+-+%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%8F+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B0+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%B8+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0/@50.454641,30.593268,15z/data=!4m2!3m1!1s0x0:0xaa5ad08a96173dc7?sa=X&ved=2ahUKEwitqKK80qToAhXQzcQBHYFdD8IQ_BIwFnoECAwQCA">
+              <img src="./assets/image/map.png" alt="">
+            </a>
+          </div>
+          <div class="image__item3">
+            <a href="https://www.google.com/maps/uv?hl=uk&pb=!1s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7!3m1!7e115!4s%2Fmaps%2Fplace%2Fsedarte%2F%4050.4542577%2C30.5935309%2C3a%2C75y%2C336.41h%2C90t%2Fdata%3D*213m4*211e1*213m2*211snfEHaTQjMz-Is-6fbl1Uow*212e0*214m2*213m1*211s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7%3Fsa%3DX!5zc2VkYXJ0ZSAtINCf0L7RiNGD0LogR29vZ2xl!15sCAQ&imagekey=!1e2!2snfEHaTQjMz-Is-6fbl1Uow&sa=X&ved=2ahUKEwiC_6G2rqToAhUHEpoKHRFVCPoQpx8wFnoECBQQCw">
+              <img src="./assets/image/street.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="item__border">
+        <div class="info">
+          <span>sedarte.com.ua - студия дизайна квартир и интерьера</span>
+          <img src="https://lh4.googleusercontent.com/-tiZt0AT42f0/AAAAAAAAAAI/AAAAAAAAAAA/DxNaUtzRzWQ/s55-p-k-no-ns-nd/photo.jpg" alt="">
+        </div>
+
+        <div class="navigation">
+          <div class="navigation__item"><button>Сайт</button></div>
+          <div class="navigation__item"><button>Маршрут</button></div>
+          <div class="navigation__item"><button>Сохранить</button></div>
+        </div>
+
+        <div class="rating">
+          <div class="rating__value"><span>5,0</span></div>
+          <div class="rating__stars">
+            <span class="rate"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span>
+          </div>
+          <div class="rating__review"><a href="#">5 отзывов на Google</a></div>
+        </div>
+        <p>Дизайнер інтер'єрів в Києві</p>
+      </div>
+        </div>
+        <div class="item__dataBorder">
+          <div class="item__dataBorder-bottom">
+          <div class="data">
+        <div class="data__address">
+          <a href="#">Адрес:</a>
+          <span>вулиця Микільсько-Слобідська, 1А, Київ, 02000</span>
+        </div>
+        <div class="data__time">
+          <a href="#">Время работы:</a>
+          <span>Зачинено ⋅ Відчиняється: чт, 09:00</span>
+        </div>
+        <div class="data__tel">
+          <a href="#">Телефон:</a>
+          <span>044 221 6809</span>
+        </div>
+          </div>
+          <div class="editing">
+            <span><a href="">Предложить исправление</a></span>
+            ·
+            <span><a href="">Вы - владелец этой организации?</a></span>
+          </div>
+          <div class="question">
+            <div class="question__all">
+              <p>Вопросы и ответы</p>
+              <a href="#">Посмотреть все вопросы (1)</a>
+            </div>
+            <div class="question__new">
+              <button>Задать вопрос</button>
+            </div>
+          </div>
+          <div class="question">
+            <div class="question__all">
+              <p>Отзывы в Интернете</p>
+              <a href="#">
+                <span class="question__all-rate">5/5</span>
+                <span class="question__all-facebook" title="Facebook">Facebook</span>
+                <span class="question__all-vote"> · 26 голосов</span>
+              </a>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="comment__google">
+              <p>Отзывы<span>?</span></p>
+              <a href="#">5 отзывов на Google</a>
+            </div>
+            <div class="comment__all">
+              <button>Написать отзыв</button>
+              <button>Добавить фото</button>
+            </div>
+          </div>
+          <div class="inquirie">
+            <div class="inquiries">
+              <div class="inquiries__title"><a href="#">Похожие запросы</a></div>
+              <div class="inquiries__more"><a href="#">Еще 15+</a></div>
+            </div>
+            <div class="gallery">
+              <div class="gallery__item1">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QAqRXhpZgAASUkqAAgAAAABADEBAgAHAAAAGgAAAAAAAABHb29nbGUAAP/bAIQAAwICAwICAwMDAwQDAwQFCAUFBAQNEA0PEA4QDhEODxAPDQ4PDRANDw0LERELDxAQEA8OEA4NEA0ODhANDg8QEAEDBAQGBQYKBgYKEA4LDRARDw8OEg8PDRAPDw8PEA8NEBAVDg0PDw8NDg4ODg8QDQ8NDxINDw0NDQ8PDw0QDRAP/8AAEQgASABIAwERAAIRAQMRAf/EAB0AAAICAwADAAAAAAAAAAAAAAYIBQcCAwQAAQn/xAA0EAACAQMDAwMCBQMDBQAAAAABAgMEBREGEiEABzETIkEUUQgyYYGRFSNxYrHwGDSCodH/xAAbAQACAwEBAQAAAAAAAAAAAAADBAECBQYAB//EADERAAEDAwMCBAQGAwEAAAAAAAEAAhEDITEEEkFRYRMicfCBobHBBTKR0eHxBiNCFP/aAAwDAQACEQMRAD8AndSafkprbFfLS3rQ19DNHQ11G+SA4xujkUj3cextwDDgkEhugMcHtBODwrVGlji3omL7G6HpqG1W/U4qpVuNfbYoKyKAj03Iw4YrtzujYsiYK7VZk24wF0NMIbKTrG8K3PqESIqrYI6aQAtTXFgAP9+vBSvSIXycdTZQslibawX3YODj+f8AbqFZccwcHB+evKVnSU7Ofv8AoOrKCZW2ogdEY4xgeOvSoXz67fNQ0/cr+iaTqo6nS1ykrZqi1jG2IowjJUDHpvLL+dMbXUiYKkg3zc9rgGFtRmZj1E8rZ0U1GuZUwBM9DxCcvtfoio0bZ54TcpaylqJPWhpWHCZ+x8+7gt8Z5AySx2KLYaLrLqEEourp4bbTfU1k0VJTggGachR/JwOejExlBAK3CFmm5U8fHUq6Eu8GvG0TpYpRVBgvlafTo0QBmwCNzYPACrwWbCgkDO4joNR+0K7G7ilhsvc2/ak1wIpL1cqJrZU1FVdGfhPWiZYxtRQcIrkhmbgoThETwu4uyigDCcDROoE11b2kSmeCrgSP10x7csM+xsncuMHPxuCk7sgHp1Q+3IyhPYW+iKrbTxxVABAP6HoyEua5KZncH2oDk9eXkgXZGfTVbqv+r6atFWlZAoguVrKrvTJMgw6kxzrlThkbJyQBjAPL1Ic9rSbzMZx7/pdGwltNzhiInHv3cp97fRr6ECR5ARFGGGOMfY4I/wAHnrqBYQudOUjH4ttG33Rfcf16u5Vtws9x31NBUVTFyMnLRgtkqIydoUcbNhPLY6+d/wCTVtXpQKlF3lm9pI6Zm3HHF7rqvwelRrEtqDze/n74V+dvfxNWGm0JpV7sklZd5qZ4asRMgO6NkjyA7JvMm5WwDnJPGOuu0GuGq0zKwH5hJ7HlYeq0po1XU+hQrqjU1P3FqptTLBTSj+6KVHDAbY9uxHKqWZtxc7dhJ3EorKoJI+od0gX9/NeazywsZtB0lmut51DtqZFrIA8kdOQDktuYgHAydo3ZOCc5XB29KCr/ALNvMJg0vJu4lVV3UqrnQ3exw6cp1rDJb1ilmqV8gGNkIXKjJiyDuUOrxrs2nno7XtyUEsdhM5+HvWNTLoez2bUV5at1PFC281jlpHCHa53E5cq+Qx8rkA/HT1J82Sr2QVZFZdY5MqvA+T0WVWAEnf4e6aWzWfW+qKikprZWS1FTXsoIKgrGqodw4IIGf3x565WmZr7hwPqVv1Bt04Yck+/si6zfitvdQietSxS+ttXfR7WwcjOASpORnH7ck562v/WR+YLOOlHBS4dz/wAXetu5Wo9XaZuenbNedJ2uc3KnqF9kkKrkFfUBKSF8MoR0yzYJbCcMaijp62ma6uYDjEOAI6jP/IES68eqFpzX8fw6DSXcbSZPECP+ug5Vg2e22bu/2fsNx0+tRb7rA3qxQRryJY2kkxkswdnkhVc+5QFVfyLtCYcGHaPuLdbwYIv6EJutQcwlroJGYIcJ5EgkEg2N8ghH2jkpNF9uLX/V1q3uC2+uqpI5Ad7EPG0pXncQZAHAyCdwBfPSlSqS4wbSFZlMBvwKN+4cdVFpmovENbWQpTUn1D01OF5UhmOVbcWbBC8OvOWDAnpBpip+hnlNESz3CqtqJ4tW01TVVTO8zUxFIpOFUxoF9hdyu9VyRk8g+5sZ6T1NVzC3aSAftjHYrU0VJj2P3AEjHOZnPoo7VVLUwd1tD3ymrJIEpa+voEhm5O5mYep5bxIMgn5kXcRnHW5pqpILSbiIPPf5rB1NMAggZmR7xZM1R6gjrLPb55quBZJo13EkDLbcngnjgFsfA62qbtwBOSsuowtJA4SIdgu8MmqNPaxlvkc9wqKenV6G4XDLkbnVPTaRNrPsJD8lW92eAOMZxLWyDOFpsYC6HCyuXWlyttd22paa401Ltqmt5hZQ8TGaZBOxWebdvOd4OMlR/achgw6I55AlXYwEwl7u/YC96P1brA0dwttw/qjVdVaAGOBLvJV3jmVIsxrkJncCRgcjq76rKhpu1F9pAgCGho9CXEnknHC0hqBSpmjo2bdw875l7yfzDADWZAYPzADcSTAuHs9d6TSXbk6FirKxKykhIihpvzwt/dZ3aX+1GXBdSGR/jgDJHSX4hqPFqeNNie97Y+KV0lDwwaQGAR6XyiC66rulooKmnW0Uoo6Cnr989czOSivGajhNqlg7oCGVt2TtOM9KgkNaXA+aCOMzB9DdMPpjcROJHWPpfhBXczvFrrSt3qbJVPTV8kdXNRPTRrFtLDblQDCwYMHIHtB5JLDqYYLkX/pDcwxY2UtpvUt01Abbc5LTD61YsBwjFcBQVVSCGGcA8q23AVdi4J6ytW5m9oJIv0BnHcLX0LKgY6IMjqRGex+SnajVtZJWB6uiko6iOplkkmhHqqAdp2EgMynhXB2qPByOenGVou1wveDb3jgrPdQnyuaeki/vPIXk9RQU9V9XKiVTYRJqQ+WJGFBbAO6PAGSQNpyy7lydV9V3hbWmD16CUqyg11TdEiBbMkpbO29PX6PVFh1PYbbSiIx1dHMGYZ3hmIJX3Z2qAQGRxgjI8lAYyxWe95eZhXRR9y6rUlRRz2W42q8O+2smoZxONkiDam1yY1aMqOY1Xcc7mBGCbsIeJC85u1AGsNfay0BVUd0uVLcNVVpiq6SJKMSMVjaQyb390pZk3mJSCqCP04liBXcw6tEVPK6wz1RqWoNM7h6dPogyw/igpLfqPVl6q/paLUFYi2/bWqwhXbyVOVx6j4JIMigkeTzmDo2lobOMfpCMzVkuJgXF795t3Vu/9QtxodIz3WDRH1lsr45JYL5eAZYiZnVj5gAaP1QoCLIFIVefaCAgAltLJaABeYAH0A4RSc1JABuYtn45Krq9fiB03HM921MKS6alqKh5pvTmgCAvgl/SdS8b7MBGDEoQrFBzvYGjlsuN+iFV1JY7ZtsI79xgwu+z92p6ujgre2lkrtRW+NIlqZKmNpAm0uQDJEUAY7iMsqghMjJBxmarRMLhuOO47fstHS65waYAv6++Ud2vW9gu9ruw1JeIrXW3qqpar6eJ9npyFI4jEEfcUG+MEqjOxklY8AkCH0KdKl4rp8jSeMCT07pUah7qhptjzEdewt+ij9Qa0obY1FV3TTF8lnrqUVFRR2NvVClWyqO3ppl/kYyQOOVwThab8VpaoVGNr027TtaXQN1sj/YSG8T97LS8E0S0uY7qQBu5sMNuj5O7dEkX01msMUdGsCQQU1WRsIG7yoXdg5xww4Hk/HTt0pJJebrnzWAENC4J9Q3C7UNLS1EsFJQQtmC3WxBGikfqAXPn5Y/4HTlOi1lwgvqF2VAXCplqtRyKPSYw0oUNkc7m/wA/6f8AnyUoYQ/cdF2u8Pvu1vopcEEb8P8AP6jj9ifkY6CSeEUAKFv2nqeqtM9oRYqm0VC+nNbkyoIzkDHg4xkZ+cEfHVQ68qxFlVFR2p05Rxy242aSKB5UqHWaRzlgGUHBYngM36EeVJA6PvJvKDt4RTp3RsVopPpbakdNTM2WgiPH8ffn5x+/kicSSitgKWi7a0QqUuLWyiaqidZRUMgJDA8HIAwQRkYb7c/PVSWuaWPwQQfQ2K8Ja4ObkGR8MILr+6Xc3S80rDQ9qq1DHfU0KiLIB4PtkcnI5II9p4BPnrktV/jOn1LQx9esQBABcHAC1hLJ4HPC1qX4pUpEkU2XuYBE/PuVaum3amiUswZsLwefPjwTkgnnOOARnjrt1iIip7sxy0bASPwC3A9+xfjPyT+3B46uOyqueO4NDc6ud2EaGONAoxg/mIA3Z/KGGeD8ueFJ6EbkqwEZXNU331KuSBgwkBwB/wCv1PHg+Dn25zz0IhEBXI0s8rICGhJG05P8f/PjnqhAUyonXFgqH0fda2TfFGkLsjpwPBJ8/wA8YJPOeB1VpgqTceilHsNBRWh6u35vddTsiw0dBjdz8s5K5UY2+3LKTjHki8EhTAWa6c19fIYamogfT1Erf9lAFkkYAlfaSWHLDavtOG4IPGY29lMtxKnrfoeC4Vo+v+ojXIYwz5BOePPAwW4JH/ifadt9oQpQBZK9ZpJVbbEkSPIRNu8heBwGO4Mc/YBcffphUKmI7nKRVwjdyWXdu/0oAeOfzLnz/kZ6g2JVV1yRVDx0iGaOogUuyxhcCMljlXf5Y/n5Odsir8dLhw3Ovz9h/KbqMhlPykWJJ6+Y3HaIHqCpvT+kb3qKqj+koyIH2o9QqsOeBnBQmSPn3Mivjn7E9LVK7WZPwXm03OwFc+k/w9yUtBLU3uugpyjvmlpULuFyMNncwU4yfnAbJ2kAdKO1bNu5t0dtB26HLLW/YKx3TQ14t1DNVXW61tFULSG4y7IlkI2hiscZKqHxwFfLKE5YY6GzWOcQeOw/lEdpwJHPqjqk7baKFIPTsNEkgG3bK7uMflxl2IODgZ4yACeehmtUDpkx8Psp8NhC3rovTtK0cMmnrc8jD2+sivxwOdxJHkkY5+fHPUCs9xsbepU+G0C4UtbdD6dwmNO2htuSHjiXg+eAQDnGAMD7e7jBN4jmmA4z6/uq7ARJC//Z" alt="">
+                  <h6>U‑Style</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAACXBIWXMAAAAcAAAAHAAPAbmPAAAAjVBMVEXt7e76+vr39vby8vPk5ef///9rdnv4+fplvXyAxpPa3d62u77J4dCk07G32sHp6evk6uduwITJzM2b0KpbuXTf4eTufXSSzaKJypt+iIx1f4TA3cmQmZyjqq2ss7Xb59/oQTN3w4zV2NuaoqX10M3S5Ni/xMaHkZTxqqXrWk5aFBGDIRupLSTKOCyq2v+TEpyoAAAEwElEQVR42u39V7eiShCFAVR3k8lkMpidOef//71bDaKiZ+bC0D7uCYaF39puqlP5AktEiVIz6XRWlLyR5RgEipJAQZ1PkizLVCiaEeJyz/sARKOBqYRQaHJ0LhoNoMpcUl2IRxO2owP9He26sEnEVWoY2S/o2DC2fQ+V7JVBxgtailU1lmCDGKGGiXpHS6oqbUUPaXwATcnOQJ0+glb+kLUAtGkG3Dd9QcfuZrQ8SX1Hb62QwPxxyHC0sWnQMKzrj6EBJrT7JMlgW9FAp7Txpj0LyVvREN/Zr4o3zoWUkT+gXWMbeRroKDaXuzUORsy8kcb1IJ5rI5nXdc4XdKRTXMuEiqgElIFuEMJApBhTZcWkwb5QTMFokCii5d1eKQLRrgmRG7M+5yYuZiLRjMnkcEkSE2+jSkWSKT1cu1HXg1gyTGCuBIQVH6OXbq6LKONv5K47iPHNoHsXiLDN6PUH9FWEbXboftJBgO2H6a/fv35/TS+S7bYZnWC/f3H9viey2fY9j69fo76FJcIuM9MP2xdx6F+TxKM/4PqDWbNuZvteIWx7YT/q+hvrevKMM9Rm8idHI3xuDgF6+JRpZCdv5IuodeaNnQhcwebshIlbeOfshIBAPbMTmUkgUA92IstEKPrOvpqV8T+NLX54kqQVpxDmDuiTWUmvaHeE8S29gQ8uN4KnqsVoIHx6TfgJj8QPVjyyRthcEC+Vq/I4DI6eWET+m0BeKDwVXLtLU5kDfYmWogllLOkSbPYp5sKPLEYzFw7dYRfs4oWfWIEGF8e3Czt34SeWZ60imHk1BlLRv12Hd5e2JTZ3pMVomRBVzRW8jXk1e19FFi/uWzHyaiz1oa0or1CgBPj/ToFhODyx+KB5GgKWNjwsrutYos1ZHtCSKrk/tztbyypt2450vY9gufAsreABbFfk46C5ybIsx7ZDXdcjFD6Edh85luWtQONZ+qxUhVLwc7rn2Jmu+wjzdT1Do6VlteNlXqrpKawTJdBU1QknHsML+yjKHOuHq9pe99qoXc3GqGlwVs7YXPCcLOqdN0Sphfh/Zq9EAyFGjYnsFRh27gPdPj5fYWslf7A0by3awBFT1XLeTMd0z0k1P5zoXtbfnuprbRMVfz0xCmpWzxN9OdGPfjaZXW0bO6sFNprzAtGzuka6ltqa83hnrW1sJCpNoDS4Pr41Lo5apKXl/eVtRC6Xqp4wbawTbDa8sO3eO4Y+0m9p+yvRjKgSrjLYy3nrEvmD42OmaTiKUrsMYS0bDTeFotTGy4o9BZAiEueRUPdXo8mJ/xjGp+z5npIjy1TXoilubz1a4h25ygykebtPw4j91Do62i1rZy0abySRjcDE1YY+ox38/t4wj4bZ+M5q18jG6Yn/0LaH57QzNGn1/Jk/2rX09Wiq4u9K+Uvaw1Rnc9pwOz3H1+x/QBOzloY6kR6l7fAUjn6kh3oIra3165OGqd2M89TZeOzhbym0ZZhZaZRZ8G+iDNn7nO/PpreO91Ht6Frawr8LN1D7Yceg3hJJxwULI/ZtD7ZIInJQUKPeyzf0UMttqOkObBRVZang+6gbusSixohTCzaLAK8/E25bbVwJnV4LWxAgXGzqHUZ9gqG0vUjznfeI/wP8D5MN/ewXnQAAAABJRU5ErkJggg==" alt="">
+                  <h6>Дизайн интерь... в Киеве...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>Artinterior</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                  <h6>СТУДИЯ ДИЗАЙНА ИНТЕР...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>InСube Design ‑ студия д...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="item">
+        <div class="item__borders">
+        <div class="image">
+          <div class="image__item1">
+            <a href="https://www.google.com/maps/uv?hl=uk&pb=!1s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM6rM5O7_74knE9CE9GPgZcTwrsU_RY2WLFVQuy%3Dw340-h200-k-no!5zc2VkYXJ0ZSAtINCf0L7RiNGD0LogR29vZ2xl!15sCAQ&imagekey=!1e10!2sAF1QipM6rM5O7_74knE9CE9GPgZcTwrsU_RY2WLFVQuy&sa=X&ved=2ahUKEwiC_6G2rqToAhUHEpoKHRFVCPoQoiowFnoECBQQBg">
+            <img src="./assets/image/fainatown.png" alt="">
+            </a>
+          </div>
+          <div class="image__item2">
+            <a href="https://www.google.com/maps/place/sedarte.com.ua+-+%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%8F+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B0+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%B8+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0/@50.454641,30.593268,15z/data=!4m2!3m1!1s0x0:0xaa5ad08a96173dc7?sa=X&ved=2ahUKEwitqKK80qToAhXQzcQBHYFdD8IQ_BIwFnoECAwQCA">
+              <img src="./assets/image/map.png" alt="">
+            </a>
+          </div>
+          <div class="image__item3">
+            <a href="https://www.google.com/maps/uv?hl=uk&pb=!1s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7!3m1!7e115!4s%2Fmaps%2Fplace%2Fsedarte%2F%4050.4542577%2C30.5935309%2C3a%2C75y%2C336.41h%2C90t%2Fdata%3D*213m4*211e1*213m2*211snfEHaTQjMz-Is-6fbl1Uow*212e0*214m2*213m1*211s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7%3Fsa%3DX!5zc2VkYXJ0ZSAtINCf0L7RiNGD0LogR29vZ2xl!15sCAQ&imagekey=!1e2!2snfEHaTQjMz-Is-6fbl1Uow&sa=X&ved=2ahUKEwiC_6G2rqToAhUHEpoKHRFVCPoQpx8wFnoECBQQCw">
+              <img src="./assets/image/street.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="item__border">
+        <div class="info">
+          <span>sedarte.com.ua - студия дизайна квартир и интерьера</span>
+          <img src="https://lh4.googleusercontent.com/-tiZt0AT42f0/AAAAAAAAAAI/AAAAAAAAAAA/DxNaUtzRzWQ/s55-p-k-no-ns-nd/photo.jpg" alt="">
+        </div>
+
+        <div class="navigation">
+          <div class="navigation__item"><button>Сайт</button></div>
+          <div class="navigation__item"><button>Маршрут</button></div>
+          <div class="navigation__item"><button>Сохранить</button></div>
+        </div>
+
+        <div class="rating">
+          <div class="rating__value"><span>5,0</span></div>
+          <div class="rating__stars">
+            <span class="rate"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span>
+          </div>
+          <div class="rating__review"><a href="#">5 отзывов на Google</a></div>
+        </div>
+        <p>Дизайнер інтер'єрів в Києві</p>
+      </div>
+        </div>
+        <div class="item__dataBorder">
+          <div class="item__dataBorder-bottom">
+          <div class="data">
+        <div class="data__address">
+          <a href="#">Адрес:</a>
+          <span>вулиця Микільсько-Слобідська, 1А, Київ, 02000</span>
+        </div>
+        <div class="data__time">
+          <a href="#">Время работы:</a>
+          <span>Зачинено ⋅ Відчиняється: чт, 09:00</span>
+        </div>
+        <div class="data__tel">
+          <a href="#">Телефон:</a>
+          <span>044 221 6809</span>
+        </div>
+          </div>
+          <div class="editing">
+            <span><a href="">Предложить исправление</a></span>
+            ·
+            <span><a href="">Вы - владелец этой организации?</a></span>
+          </div>
+          <div class="question">
+            <div class="question__all">
+              <p>Вопросы и ответы</p>
+              <a href="#">Посмотреть все вопросы (1)</a>
+            </div>
+            <div class="question__new">
+              <button>Задать вопрос</button>
+            </div>
+          </div>
+          <div class="question">
+            <div class="question__all">
+              <p>Отзывы в Интернете</p>
+              <a href="#">
+                <span class="question__all-rate">5/5</span>
+                <span class="question__all-facebook" title="Facebook">Facebook</span>
+                <span class="question__all-vote"> · 26 голосов</span>
+              </a>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="comment__google">
+              <p>Отзывы<span>?</span></p>
+              <a href="#">5 отзывов на Google</a>
+            </div>
+            <div class="comment__all">
+              <button>Написать отзыв</button>
+              <button>Добавить фото</button>
+            </div>
+          </div>
+          <div class="inquirie">
+            <div class="inquiries">
+              <div class="inquiries__title"><a href="#">Похожие запросы</a></div>
+              <div class="inquiries__more"><a href="#">Еще 15+</a></div>
+            </div>
+            <div class="gallery">
+              <div class="gallery__item1">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>U‑Style</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAACXBIWXMAAAAcAAAAHAAPAbmPAAAAjVBMVEXt7e76+vr39vby8vPk5ef///9rdnv4+fplvXyAxpPa3d62u77J4dCk07G32sHp6evk6uduwITJzM2b0KpbuXTf4eTufXSSzaKJypt+iIx1f4TA3cmQmZyjqq2ss7Xb59/oQTN3w4zV2NuaoqX10M3S5Ni/xMaHkZTxqqXrWk5aFBGDIRupLSTKOCyq2v+TEpyoAAAEwElEQVR42u39V7eiShCFAVR3k8lkMpidOef//71bDaKiZ+bC0D7uCYaF39puqlP5AktEiVIz6XRWlLyR5RgEipJAQZ1PkizLVCiaEeJyz/sARKOBqYRQaHJ0LhoNoMpcUl2IRxO2owP9He26sEnEVWoY2S/o2DC2fQ+V7JVBxgtailU1lmCDGKGGiXpHS6oqbUUPaXwATcnOQJ0+glb+kLUAtGkG3Dd9QcfuZrQ8SX1Hb62QwPxxyHC0sWnQMKzrj6EBJrT7JMlgW9FAp7Txpj0LyVvREN/Zr4o3zoWUkT+gXWMbeRroKDaXuzUORsy8kcb1IJ5rI5nXdc4XdKRTXMuEiqgElIFuEMJApBhTZcWkwb5QTMFokCii5d1eKQLRrgmRG7M+5yYuZiLRjMnkcEkSE2+jSkWSKT1cu1HXg1gyTGCuBIQVH6OXbq6LKONv5K47iPHNoHsXiLDN6PUH9FWEbXboftJBgO2H6a/fv35/TS+S7bYZnWC/f3H9viey2fY9j69fo76FJcIuM9MP2xdx6F+TxKM/4PqDWbNuZvteIWx7YT/q+hvrevKMM9Rm8idHI3xuDgF6+JRpZCdv5IuodeaNnQhcwebshIlbeOfshIBAPbMTmUkgUA92IstEKPrOvpqV8T+NLX54kqQVpxDmDuiTWUmvaHeE8S29gQ8uN4KnqsVoIHx6TfgJj8QPVjyyRthcEC+Vq/I4DI6eWET+m0BeKDwVXLtLU5kDfYmWogllLOkSbPYp5sKPLEYzFw7dYRfs4oWfWIEGF8e3Czt34SeWZ60imHk1BlLRv12Hd5e2JTZ3pMVomRBVzRW8jXk1e19FFi/uWzHyaiz1oa0or1CgBPj/ToFhODyx+KB5GgKWNjwsrutYos1ZHtCSKrk/tztbyypt2450vY9gufAsreABbFfk46C5ybIsx7ZDXdcjFD6Edh85luWtQONZ+qxUhVLwc7rn2Jmu+wjzdT1Do6VlteNlXqrpKawTJdBU1QknHsML+yjKHOuHq9pe99qoXc3GqGlwVs7YXPCcLOqdN0Sphfh/Zq9EAyFGjYnsFRh27gPdPj5fYWslf7A0by3awBFT1XLeTMd0z0k1P5zoXtbfnuprbRMVfz0xCmpWzxN9OdGPfjaZXW0bO6sFNprzAtGzuka6ltqa83hnrW1sJCpNoDS4Pr41Lo5apKXl/eVtRC6Xqp4wbawTbDa8sO3eO4Y+0m9p+yvRjKgSrjLYy3nrEvmD42OmaTiKUrsMYS0bDTeFotTGy4o9BZAiEueRUPdXo8mJ/xjGp+z5npIjy1TXoilubz1a4h25ygykebtPw4j91Do62i1rZy0abySRjcDE1YY+ox38/t4wj4bZ+M5q18jG6Yn/0LaH57QzNGn1/Jk/2rX09Wiq4u9K+Uvaw1Rnc9pwOz3H1+x/QBOzloY6kR6l7fAUjn6kh3oIra3165OGqd2M89TZeOzhbym0ZZhZaZRZ8G+iDNn7nO/PpreO91Ht6Frawr8LN1D7Yceg3hJJxwULI/ZtD7ZIInJQUKPeyzf0UMttqOkObBRVZang+6gbusSixohTCzaLAK8/E25bbVwJnV4LWxAgXGzqHUZ9gqG0vUjznfeI/wP8D5MN/ewXnQAAAABJRU5ErkJggg==" alt="">
+                  <h6>Дизайн интерь... в Киеве...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QAqRXhpZgAASUkqAAgAAAABADEBAgAHAAAAGgAAAAAAAABHb29nbGUAAP/bAIQAAwICAwICDgsDAwQDDg8PEQ0QEAQFChAODwoPDQsODg4RCg8OEA0ODg4OCg0NDgoPEA0QDQsLDQ4QDQ4NDwoNCgEDBAQGBQYKBgYKDw4LDg8NDw8ODw8OEg8QEBAPDw8PDQ8NExANEg8QDw0QEA0PDw8NDxANDw8NDRANDQ0QDQ0N/8AAEQgASABIAwERAAIRAQMRAf/EABoAAAIDAQEAAAAAAAAAAAAAAAUGBAcIAwL/xABCEAACAAQEBAMEBAkNAAAAAAABAgMEBREABhIhBxMxQRQiUQgyYXEjUoGRFiRCYnKhwdHwFSUzNENEU3N0gpKxsv/EABwBAAEFAQEBAAAAAAAAAAAAAAQBAgMFBgcACP/EADURAAEDAQYDBQgCAgMAAAAAAAEAAhEDBBIhMUFRBWGBE3GRscEGFCIyodHh8EJSM1MHFST/2gAMAwEAAhEDEQA/ANBQZXA91WUqfAk2Y7b48WwmqfocC25wkLy6LANt9sROamlcpqnwZyDaPCWMPRh/H34ic0OEOCka8tSTmHhv4iHeS+mHXTENiD+a/r6dCPrHFZVserPD8o5lqH8lByNlV5uO/j40Q6CAFdLNc77nbpbawF9t/WOzULxN7TRPrVrsRqmibbltvti4DRohA5CpmMeZ74Aw4Mg5p3aJslpMasXNyM0FeReWkj+SL4ie1LKJJR2C7rqwGllc3p51W02+eEIlKoc7BSTiWiOo/RN/4+eIy1Ih9QryCVCoiJa5uQL727/ZsDe32nHrqWEl5jiLViBHn5qCvdYEQrqHprUhrHpa5Fr7YcICXJLslCpeXIJWlwYksCb2MxEYX+AZjb42tc74X5ivL1Bq8oJkeNV4y9xCYAkelyDb7sHvsjgyYSqPSPbJ4dzbfjElWqd/nSyt/wCGbFp2gOY8lWwrAy97RnDSsEeHzNLStyAPHQ3TzHoLuoFz2GIHhmZw6J4vJjqXFqiSrWlFmZ34pDIX/kdz9gt6HAZbT3UwDtkq1viws1M3WoLIjuqS43+bHe3wFvnjwNED8p4a7dDKrn6mCSVpesyc0WvdYXM1L8yVCm/5pOBTVbspAEutmmbqjt4CWmJ/SC7eHgltKDqxsDZR3J2wM54ToQvNfF6ezNp8a0omkaR4eWhrsP0QD9h6dhiO80KQUilqezTRxQNbZgUxdVuUktE9z6ximydfyRfb7sWNiour1LrUjm3UJavzbUrmrIzUSGDpLrBbQGPQF7aQT9W98dA4jZm2ezMFR7QS0GCROW0yhWPvOICqWtezLxap1NPgcv1SOe7RqFUAwIY+7D8Oy2KkCx1Em7BugXmTXumLpCcbujh4oPK+zfxGy1VIcauyswAHU/Ty03c6dyo1wVudKkhR2X0GFFUu0d4FOujQjxC3c9Ohy8SwXEzyDkvMdeUCfp0pMQvpEB+eAqhhPASNP5Ppc1H88sg+QwI95GqIYAkfMOR5WHN2gR5mXv8A4UVv+sNa8lSwF0peQ5iUzCnIqPP7/jMCG4v8UdSrD4MCMQuq7pyrfOtbjZY5Xh8vUqbMVDEvOtGIXfpoRkH2bAdALY13s/wb/tu1mqWBgBwaXTM7ERlzVXbrYbMWw0GZ1jbxzR/L2Z47yEPxfhJIEBiKdTBYMRuQYnOUfOx2747PZf8AjawVbO15e8ujO80AnugnpPVc7tHtbaqdVzQxsA7OJ8ZCsGmwMzRJYGFXKog/1L/vxgxb7a7M/QfZaf3Wzj+ITNw4j1dOJsEVafqE8pET+sRnYBuTEPQki9gbYe33uq4Gr8k7ADqkLaLD8AAKOU7iR+Ek/G8TSEpSQ3EJGMRtUSIG0O5h76FuVUbknS7aVBAOBqU6jaj77QADAg4c/DLyOKMsFRz2yR++iizGYYM0LwImoXI39VYqf1g4CqnRXDQlyu5ng0mRZ4qxIulS1oC3Y6QTYL3Y2sB3NhgUicEUBdCr+R4nUrMtH5zrMUMBipFZCw2FgDe2ojSdWzX7H0OHdndMeSS+CJUrLnE7LkxWgEzFTGbsFm0J23Pf0HfDKlLInAJRUCrLjvU4dAMp4nXD+gYbL3BX9+Oi+xRqt95NMxg0n4Q7+/NvqqLizmB1MO5xjGrVxy1Pwa5TEWDTarG0ru0KIphgA6STpgtsDvsblb/Aj6HsfFvdLLSdUrNAcMB2Rk4kThV1IzuxyXJ7TZBWtDw2kSQf9kDQxBZtzVtVj29cl5YlBDOTZOtPpvqkamdDXLADTDEQK3l8ymM1gQbgEY+aDxuufla0DbA+noure5N1cVaXCv2v+COb46PO0OZosW23ImokQq7KwNlfSzEebdIURdiT3tYut9Z9K5TqCDm0Na09AA0nvCE92aHS4HvJJHmY6p4mq1w8rM+zZS4Y1jPRdizRKLPSILObFmYPMI4c6QDzEh9AtwBtnqlUO+FzWiOUHaTGZwGeOSPp07glpz8EVoHs406tUHVPU6tZZcknSJqExUE3sSGioSL7kE/tNa+k1xRjarmqDX/Zvy9l/Lzmbq8QlVZy83K6yqAEklUIOkAb6QrC1wT7uGdi0BL2riZWPJ/g9nKm5gaNlfiJw+qJi2T8ceLCikFdAUJGgOu6vpsWtZiCLE4Kpe73brx1Bx8/RNcXzI8kAnPY44o5cgEPw7kod7X8LVAxYLe1lUaVO5s3lIv2O+ILV2D3C818DXP1n6dErC+MCEg5j/lnLlI5WZOHlZmuXzAv4QrHAXXYM3OdvMFIHLIYrvqXcIy3nDeI1OGuc+gWkPAvBwwIE5jDczI5boWrSbXgPBlsx1jv2UOkZanuKEvekTUhRuUgBSRhxSmlokVlYuzut7G1ksmlRsG1luq2H23bVsYsgu0yIM6ZjCLmkXv5YuPxRDRT1OACrUNSATzzy3n7eqHVnh1IZnnw2Q4keptcl4HgQjjzb8qErxDoFx9GSWF/kByYWYWppq0S29MmmNBu3fu0w7lYOtBszhTqyRo86nn91Hy9wxzXUGJlMvc1lDIRUZfdGvEsSh3BHRtS+W9iLnYM2V8fEI7/AFzjrCKFrp6Ge7Hw36J3y5KZwydHD1LN8jKML+WXjMzX2Is8O7IFP9kpgg/C5bCmqxgIrPvcjj4OxI7sJSBr3maTCOeXiPwVpnhX7XPEimoESbmMzgD3atLqWYb7IwPMci20NQ7m4sG7BipTqf4z4/vqpjSqMxePBaE4Ze2jQ+IsuQ9MaEVF2MjEV1tsOlwy9Rtu29wO+G9rGYS9nsrBoVayVmWd1UeRosSJv/QycJYgI69VD7b7/rw8Oack0ghA+IvEfKuRG/neohXG/LkzeKf9o2W46M+lfjiKpXYzM47KRlNzsgsxcQ/a3ejSjPLzByumoqOaxePEYEAKBbSNV7XAOm9y4FiAu3fUN2mixTa0S5UdkKv1GtZ4m5qaplRkVmQlkjtZ2VBYl7dASATc7k9TYFq73gCQ1wJGZVxRpEYuHcts0vJk1l6UDZUyvS8t6e06AxI+C2JVh20hQelr2I1lDi1b5WUobu4kfQHLoso/hVFxvOfLuWP74qHxJ4IZc9pKlCJTJ1KLPIP7uSsOKbe66D3Sfr7Hpe4uDbV6fbU8SY1gnDv3G2o02QFMGyvkD89x0P0OuOKxrmKWqOQa60tX6IuWYqk+9DNyNtwfqn6wNvWxBAyFosZo5CfrhuDqP3Naez2ptYYH06EaFRpWG0xtFlzO6rDSZvQzbtbS2oLrF7qh5ms2AgRSNOK5tQzmOuXdyRb2/ozTF7OdSgyGbYsWegtMKIKXMM21Lz4II9Ru3mHlK3OwINtHwCzU7VbW0K2DXX9TE3XQZGxj1wVXxF72UC+n8wiMOY07lcU7nDLshP8All52WQsT5CjbnrcWAO/mvubjfUC4O44j7Htosv2euCf6u9HD1HVUVk4hUf8ADVZ1H2P36KoKvXpamhhB0yupiBEZjcFmPnKW6b3J8zDroNiMcrr2R1B5FXMSYHiRO8dOeq03aXm/DllO22C703wkPKkODN5skViNDRWjCFM6i4CkuPoxcsR3ZdOon55GtamvqPqMYYk4Yfc5dUea0URT1gCfVDahUINIqreLz0k4ADtLRZssDvvp0afvYYFBvMbDIx5R5+iBDXTiVvyYhAP54jzB+JI/V1P3EfHHUymtCUcyRTlmc51OiNFI3ZJBdh6te9h+cLj62n3sNpWs0XQSkqWbtW5IBxfmaJ7QWRQlblJeSir7kVYgupt0MTbr8L29GXUDaVbRQfSgZnTY7hVDbHUpVLwOX1Gx/cFirNWSa7wcq3LzDSWn4R2JdWAILNbTFU6g1tx5tDWsQwDpjMVrO5pvtH0wPJXNK0Nd8JPSceiOcFfDR5maCB2Blh1NibTUoL2FtJ83QDubWFhh/Dqpo1w8CCJ8in1xebGaPVSHBeUUh9YO95cgarjY3XtvfWD9gsL7N/E31BEqsFJoTBSuH8tmXhcdcsytELWKXvrRrr5tzsyglAfMNm9cV9WzdrTcYxIInvwURqw+J2SVNykxIUyA09BgKGVTeG40ktDBA7b9drDcGxI3xyqrw+rZ75eJB1GIV01wdigNZhy7ZkfSqDb9mAAP/O3FTAYr/9k=" alt="">
+                  <h6>Artinterior</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                  <h6>СТУДИЯ ДИЗАЙНА ИНТЕР...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>InСube Design ‑ студия д...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="item">
+        <div class="item__borders">
+        <div class="image">
+          <div class="image__item1">
+            <a href="https://www.google.com/maps/uv?hl=uk&pb=!1s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM6rM5O7_74knE9CE9GPgZcTwrsU_RY2WLFVQuy%3Dw340-h200-k-no!5zc2VkYXJ0ZSAtINCf0L7RiNGD0LogR29vZ2xl!15sCAQ&imagekey=!1e10!2sAF1QipM6rM5O7_74knE9CE9GPgZcTwrsU_RY2WLFVQuy&sa=X&ved=2ahUKEwiC_6G2rqToAhUHEpoKHRFVCPoQoiowFnoECBQQBg">
+            <img src="./assets/image/fainatown.png" alt="">
+            </a>
+          </div>
+          <div class="image__item2">
+            <a href="https://www.google.com/maps/place/sedarte.com.ua+-+%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%8F+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B0+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%B8+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0/@50.454641,30.593268,15z/data=!4m2!3m1!1s0x0:0xaa5ad08a96173dc7?sa=X&ved=2ahUKEwitqKK80qToAhXQzcQBHYFdD8IQ_BIwFnoECAwQCA">
+              <img src="./assets/image/map.png" alt="">
+            </a>
+          </div>
+          <div class="image__item3">
+            <a href="https://www.google.com/maps/uv?hl=uk&pb=!1s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7!3m1!7e115!4s%2Fmaps%2Fplace%2Fsedarte%2F%4050.4542577%2C30.5935309%2C3a%2C75y%2C336.41h%2C90t%2Fdata%3D*213m4*211e1*213m2*211snfEHaTQjMz-Is-6fbl1Uow*212e0*214m2*213m1*211s0x40d4cfef3584b617%3A0xaa5ad08a96173dc7%3Fsa%3DX!5zc2VkYXJ0ZSAtINCf0L7RiNGD0LogR29vZ2xl!15sCAQ&imagekey=!1e2!2snfEHaTQjMz-Is-6fbl1Uow&sa=X&ved=2ahUKEwiC_6G2rqToAhUHEpoKHRFVCPoQpx8wFnoECBQQCw">
+              <img src="./assets/image/street.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="item__border">
+        <div class="info">
+          <span>sedarte.com.ua - студия дизайна квартир и интерьера</span>
+          <img src="https://lh4.googleusercontent.com/-tiZt0AT42f0/AAAAAAAAAAI/AAAAAAAAAAA/DxNaUtzRzWQ/s55-p-k-no-ns-nd/photo.jpg" alt="">
+        </div>
+
+        <div class="navigation">
+          <div class="navigation__item"><button>Сайт</button></div>
+          <div class="navigation__item"><button>Маршрут</button></div>
+          <div class="navigation__item"><button>Сохранить</button></div>
+        </div>
+
+        <div class="rating">
+          <div class="rating__value"><span>5,0</span></div>
+          <div class="rating__stars">
+            <span class="rate"><i>★</i><i>★</i><i>★</i><i>★</i><i>★</i></span>
+          </div>
+          <div class="rating__review"><a href="#">5 отзывов на Google</a></div>
+        </div>
+        <p>Дизайнер інтер'єрів в Києві</p>
+      </div>
+        </div>
+        <div class="item__dataBorder">
+          <div class="item__dataBorder-bottom">
+          <div class="data">
+        <div class="data__address">
+          <a href="#">Адрес:</a>
+          <span>вулиця Микільсько-Слобідська, 1А, Київ, 02000</span>
+        </div>
+        <div class="data__time">
+          <a href="#">Время работы:</a>
+          <span>Зачинено ⋅ Відчиняється: чт, 09:00</span>
+        </div>
+        <div class="data__tel">
+          <a href="#">Телефон:</a>
+          <span>044 221 6809</span>
+        </div>
+          </div>
+          <div class="editing">
+            <span><a href="">Предложить исправление</a></span>
+            ·
+            <span><a href="">Вы - владелец этой организации?</a></span>
+          </div>
+          <div class="question">
+            <div class="question__all">
+              <p>Вопросы и ответы</p>
+              <a href="#">Посмотреть все вопросы (1)</a>
+            </div>
+            <div class="question__new">
+              <button>Задать вопрос</button>
+            </div>
+          </div>
+          <div class="question">
+            <div class="question__all">
+              <p>Отзывы в Интернете</p>
+              <a href="#">
+                <span class="question__all-rate">5/5</span>
+                <span class="question__all-facebook" title="Facebook">Facebook</span>
+                <span class="question__all-vote"> · 26 голосов</span>
+              </a>
+            </div>
+          </div>
+          <div class="comment">
+            <div class="comment__google">
+              <p>Отзывы<span>?</span></p>
+              <a href="#">5 отзывов на Google</a>
+            </div>
+            <div class="comment__all">
+              <button>Написать отзыв</button>
+              <button>Добавить фото</button>
+            </div>
+          </div>
+          <div class="inquirie">
+            <div class="inquiries">
+              <div class="inquiries__title"><a href="#">Похожие запросы</a></div>
+              <div class="inquiries__more"><a href="#">Еще 15+</a></div>
+            </div>
+            <div class="gallery">
+              <div class="gallery__item1">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>U‑Style</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAAACXBIWXMAAAAcAAAAHAAPAbmPAAAAjVBMVEXt7e76+vr39vby8vPk5ef///9rdnv4+fplvXyAxpPa3d62u77J4dCk07G32sHp6evk6uduwITJzM2b0KpbuXTf4eTufXSSzaKJypt+iIx1f4TA3cmQmZyjqq2ss7Xb59/oQTN3w4zV2NuaoqX10M3S5Ni/xMaHkZTxqqXrWk5aFBGDIRupLSTKOCyq2v+TEpyoAAAEwElEQVR42u39V7eiShCFAVR3k8lkMpidOef//71bDaKiZ+bC0D7uCYaF39puqlP5AktEiVIz6XRWlLyR5RgEipJAQZ1PkizLVCiaEeJyz/sARKOBqYRQaHJ0LhoNoMpcUl2IRxO2owP9He26sEnEVWoY2S/o2DC2fQ+V7JVBxgtailU1lmCDGKGGiXpHS6oqbUUPaXwATcnOQJ0+glb+kLUAtGkG3Dd9QcfuZrQ8SX1Hb62QwPxxyHC0sWnQMKzrj6EBJrT7JMlgW9FAp7Txpj0LyVvREN/Zr4o3zoWUkT+gXWMbeRroKDaXuzUORsy8kcb1IJ5rI5nXdc4XdKRTXMuEiqgElIFuEMJApBhTZcWkwb5QTMFokCii5d1eKQLRrgmRG7M+5yYuZiLRjMnkcEkSE2+jSkWSKT1cu1HXg1gyTGCuBIQVH6OXbq6LKONv5K47iPHNoHsXiLDN6PUH9FWEbXboftJBgO2H6a/fv35/TS+S7bYZnWC/f3H9viey2fY9j69fo76FJcIuM9MP2xdx6F+TxKM/4PqDWbNuZvteIWx7YT/q+hvrevKMM9Rm8idHI3xuDgF6+JRpZCdv5IuodeaNnQhcwebshIlbeOfshIBAPbMTmUkgUA92IstEKPrOvpqV8T+NLX54kqQVpxDmDuiTWUmvaHeE8S29gQ8uN4KnqsVoIHx6TfgJj8QPVjyyRthcEC+Vq/I4DI6eWET+m0BeKDwVXLtLU5kDfYmWogllLOkSbPYp5sKPLEYzFw7dYRfs4oWfWIEGF8e3Czt34SeWZ60imHk1BlLRv12Hd5e2JTZ3pMVomRBVzRW8jXk1e19FFi/uWzHyaiz1oa0or1CgBPj/ToFhODyx+KB5GgKWNjwsrutYos1ZHtCSKrk/tztbyypt2450vY9gufAsreABbFfk46C5ybIsx7ZDXdcjFD6Edh85luWtQONZ+qxUhVLwc7rn2Jmu+wjzdT1Do6VlteNlXqrpKawTJdBU1QknHsML+yjKHOuHq9pe99qoXc3GqGlwVs7YXPCcLOqdN0Sphfh/Zq9EAyFGjYnsFRh27gPdPj5fYWslf7A0by3awBFT1XLeTMd0z0k1P5zoXtbfnuprbRMVfz0xCmpWzxN9OdGPfjaZXW0bO6sFNprzAtGzuka6ltqa83hnrW1sJCpNoDS4Pr41Lo5apKXl/eVtRC6Xqp4wbawTbDa8sO3eO4Y+0m9p+yvRjKgSrjLYy3nrEvmD42OmaTiKUrsMYS0bDTeFotTGy4o9BZAiEueRUPdXo8mJ/xjGp+z5npIjy1TXoilubz1a4h25ygykebtPw4j91Do62i1rZy0abySRjcDE1YY+ox38/t4wj4bZ+M5q18jG6Yn/0LaH57QzNGn1/Jk/2rX09Wiq4u9K+Uvaw1Rnc9pwOz3H1+x/QBOzloY6kR6l7fAUjn6kh3oIra3165OGqd2M89TZeOzhbym0ZZhZaZRZ8G+iDNn7nO/PpreO91Ht6Frawr8LN1D7Yceg3hJJxwULI/ZtD7ZIInJQUKPeyzf0UMttqOkObBRVZang+6gbusSixohTCzaLAK8/E25bbVwJnV4LWxAgXGzqHUZ9gqG0vUjznfeI/wP8D5MN/ewXnQAAAABJRU5ErkJggg==" alt="">
+                  <h6>Дизайн интерь... в Киеве...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>Artinterior</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/png;base64,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" alt="">
+                  <h6>СТУДИЯ ДИЗАЙНА ИНТЕР...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+              <div class="gallery__item">
+                <a href="#">
+                  <img src="data:image/jpeg;base64,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" alt="">
+                  <h6>InСube Design ‑ студия д...</h6>
+                  <p>Дизайнер интерьера</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+    <div class="content__more">
+      <button><p>Больше отзывов</p></button>
+    </div>
+  </div>
+</div>
+
+<footer>
+<div class="footerWrap">
+<div class="row">
+  <div class="col-md-5">
+    <div class="footerWrap__items">
+      <a href="#">Отзывы о работодателях</a>
+      <a href="#">Отказ от ответственности</a>
+      <a href="#">Помощь проекту</a>
+    </div>
+    <div class="copyright"><p>©2020</p></div>
+  </div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>

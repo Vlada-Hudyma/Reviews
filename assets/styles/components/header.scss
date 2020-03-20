@@ -1,0 +1,78 @@
+$bg-color: #000000;
+$header-btn: rgb(240, 203, 83);
+$bg-btn: rgb(110, 105, 105);
+$bg-searc: rgb(255, 255, 255);
+
+.wrap {
+  width: 100%;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background: $bg-color;
+}
+
+.logo h3 {
+  font-size: 12px;
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+  &__login {
+    padding-right: 30px;
+    padding-bottom: 5px;
+    & button {
+      outline: none;
+    }
+  }
+  &__registration button {
+    outline: none;
+  }
+}
+
+.review {
+  display: flex;
+  justify-content: flex-end;
+  & button {
+    color: $header-btn;
+    background-color: $bg-btn;
+    padding: 5px 16px;
+    outline: none;
+    cursor: pointer;
+  }
+  &__new {
+    padding-right: 25px;
+  }
+  &__add {
+    padding-right: 25px;
+  }
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.search {
+  background: $bg-searc;
+  width: 90%;
+  height: 48px;
+  & form {
+    padding-top: 8px;
+  }
+}
+
+input[type=search] {
+	width: 80%;
+  height: 32px;
+  outline: none;
+  border: none;
+}
+input[type=submit] {
+	width: 78px;
+}
